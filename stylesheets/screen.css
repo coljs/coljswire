@@ -1,0 +1,161 @@
+/* line 1, ../sass/_base.sass */
+html {
+  font-family: sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+/* line 7, ../sass/_base.sass */
+h1, h2, h3, h4, h5 {
+  line-height: 1.2;
+}
+
+/* line 10, ../sass/_base.sass */
+.block, .hot article {
+  border: 1px solid gray;
+}
+
+/* line 13, ../sass/_base.sass */
+.mini-block {
+  background: silver;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+}
+
+/* line 18, ../sass/_base.sass */
+.content {
+  width: 960px;
+  margin: auto;
+}
+
+/* line 22, ../sass/_base.sass */
+.three-col {
+  overflow: hidden;
+}
+/* line 25, ../sass/_base.sass */
+.three-col .col {
+  float: left;
+  width: 30%;
+  margin: 1.533%;
+}
+
+/* line 30, ../sass/_base.sass */
+.menu {
+  display: inline-block;
+}
+/* line 33, ../sass/_base.sass */
+.menu ul {
+  padding: 0;
+}
+/* line 36, ../sass/_base.sass */
+.menu li {
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+
+/* line 40, ../sass/_base.sass */
+header, footer {
+  text-align: center;
+}
+/* line 43, ../sass/_base.sass */
+header h1, footer h1 {
+  font-size: 4em;
+  font-weight: 200;
+}
+/* line 47, ../sass/_base.sass */
+header h2, footer h2 {
+  font-weight: 200;
+}
+
+/* line 50, ../sass/_base.sass */
+footer {
+  text-align: center;
+  margin-top: 3em;
+}
+
+/* line 1, ../sass/_home.sass */
+.important-event {
+  margin: 1em auto;
+  width: 70%;
+}
+/* line 5, ../sass/_home.sass */
+.important-event h3, .important-event h4 {
+  margin: 0.4em 0;
+}
+/* line 8, ../sass/_home.sass */
+.important-event h3 {
+  margin-top: 2em;
+}
+/* line 11, ../sass/_home.sass */
+.important-event img {
+  float: left;
+}
+/* line 14, ../sass/_home.sass */
+.important-event .inner {
+  overflow: hidden;
+}
+/* line 17, ../sass/_home.sass */
+.important-event .data {
+  margin-left: 140px;
+}
+/* line 20, ../sass/_home.sass */
+.important-event footer {
+  text-align: center;
+  background: silver;
+}
+
+/* line 24, ../sass/_home.sass */
+.hot {
+  padding-top: 2em;
+}
+/* line 27, ../sass/_home.sass */
+.hot h3 {
+  text-align: center;
+}
+/* line 32, ../sass/_home.sass */
+.hot article {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+/* line 37, ../sass/_home.sass */
+.hot article h3, .hot article h4 {
+  margin: 0.5em 0;
+}
+/* line 40, ../sass/_home.sass */
+.hot article button {
+  display: block;
+  font-size: 1.2em;
+  margin: auto;
+  width: 90%;
+  margin-top: 0.8em;
+}
+
+/* line 48, ../sass/_home.sass */
+.testimonials h3 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 2em;
+}
+/* line 53, ../sass/_home.sass */
+.testimonials .avatar {
+  float: left;
+}
+/* line 56, ../sass/_home.sass */
+.testimonials .cite {
+  margin-left: 105px;
+}
+/* line 59, ../sass/_home.sass */
+.testimonials .cite p {
+  margin-top: 0;
+}
+
+/* line 63, ../sass/_home.sass */
+.sponsors h3 {
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 2em;
+}
+/* line 68, ../sass/_home.sass */
+.sponsors .sponsor {
+  text-align: center;
+}
