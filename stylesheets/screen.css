@@ -40,37 +40,84 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 30, ../sass/_base.sass */
+.two-col {
+  overflow: hidden;
+}
+/* line 33, ../sass/_base.sass */
+.two-col .col {
+  float: left;
+  width: 46%;
+  margin: 1.533%;
+}
+
+/* line 38, ../sass/_base.sass */
 .menu {
   display: inline-block;
 }
-/* line 33, ../sass/_base.sass */
+/* line 41, ../sass/_base.sass */
 .menu ul {
   padding: 0;
 }
-/* line 36, ../sass/_base.sass */
+/* line 44, ../sass/_base.sass */
 .menu li {
   display: inline-block;
   padding: 0.5em 1em;
 }
+/* line 47, ../sass/_base.sass */
+.menu .external {
+  background: #ffc3c3;
+}
 
-/* line 40, ../sass/_base.sass */
+/* line 50, ../sass/_base.sass */
 header, footer {
   text-align: center;
 }
-/* line 43, ../sass/_base.sass */
+/* line 53, ../sass/_base.sass */
 header h1, footer h1 {
   font-size: 4em;
   font-weight: 200;
 }
-/* line 47, ../sass/_base.sass */
+/* line 57, ../sass/_base.sass */
 header h2, footer h2 {
   font-weight: 200;
 }
 
-/* line 50, ../sass/_base.sass */
-footer {
+/* line 60, ../sass/_base.sass */
+#footer {
   text-align: center;
   margin-top: 3em;
+}
+/* line 65, ../sass/_base.sass */
+#footer .subscribe p {
+  margin: 0;
+}
+/* line 67, ../sass/_base.sass */
+#footer .subscribe .note {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+/* line 70, ../sass/_base.sass */
+#footer .subscribe .inner {
+  padding: 1.2em 1em 0.5em;
+}
+/* line 73, ../sass/_base.sass */
+#footer .subscribe input, #footer .subscribe button {
+  font-size: 1.2em;
+}
+/* line 77, ../sass/_base.sass */
+#footer .twitter .inner {
+  padding: 1.2em 1em 1em;
+  text-align: left;
+}
+/* line 80, ../sass/_base.sass */
+#footer .twitter .message {
+  font-style: italic;
+  margin-bottom: 0;
+}
+/* line 83, ../sass/_base.sass */
+#footer .twitter footer {
+  text-align: right;
+  font-size: 0.8em;
 }
 
 /* line 1, ../sass/_home.sass */
