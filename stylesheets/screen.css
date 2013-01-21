@@ -214,3 +214,30 @@ footer {
 #sec-acerca .integrants .integrant:last-child {
   margin-right: 0;
 }
+
+/* line 2, ../sass/_sponsors.sass */
+#sec-sponsors article {
+  max-width: 40em;
+  margin: 4em auto;
+}
+/* line 5, ../sass/_sponsors.sass */
+#sec-sponsors article h3 {
+  margin-top: 2em;
+}
+/* line 8, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor {
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+  padding: 2em 0;
+}
+/* line 12, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .info {
+  float: left;
+  width: 130px;
+  text-align: center;
+}
+/* line 16, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .about {
+  text-align: left;
+  margin-left: 200px;
+}
