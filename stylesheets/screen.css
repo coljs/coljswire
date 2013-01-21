@@ -69,52 +69,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 50, ../sass/_base.sass */
+strong, b {
+  font-weight: bold;
+}
+
+/* line 53, ../sass/_base.sass */
 header, footer {
   text-align: center;
 }
-/* line 53, ../sass/_base.sass */
+/* line 56, ../sass/_base.sass */
 header h1, footer h1 {
   font-size: 4em;
   font-weight: 200;
 }
-/* line 57, ../sass/_base.sass */
+/* line 60, ../sass/_base.sass */
 header h2, footer h2 {
   font-weight: 200;
 }
 
-/* line 60, ../sass/_base.sass */
+/* line 64, ../sass/_base.sass */
+header h1 {
+  float: left;
+  margin: 0 0 1em;
+}
+/* line 67, ../sass/_base.sass */
+header nav {
+  float: right;
+}
+/* line 69, ../sass/_base.sass */
+header h2 {
+  clear: both;
+}
+
+/* line 71, ../sass/_base.sass */
 #footer {
   text-align: center;
   margin-top: 3em;
 }
-/* line 65, ../sass/_base.sass */
+/* line 77, ../sass/_base.sass */
 #footer .subscribe p {
   margin: 0;
 }
-/* line 67, ../sass/_base.sass */
+/* line 79, ../sass/_base.sass */
 #footer .subscribe .note {
   font-size: 0.8em;
   margin-bottom: 1em;
 }
-/* line 70, ../sass/_base.sass */
+/* line 82, ../sass/_base.sass */
 #footer .subscribe .inner {
   padding: 1.2em 1em 0.5em;
 }
-/* line 73, ../sass/_base.sass */
+/* line 85, ../sass/_base.sass */
 #footer .subscribe input, #footer .subscribe button {
   font-size: 1.2em;
 }
-/* line 77, ../sass/_base.sass */
+/* line 89, ../sass/_base.sass */
 #footer .twitter .inner {
   padding: 1.2em 1em 1em;
   text-align: left;
 }
-/* line 80, ../sass/_base.sass */
+/* line 92, ../sass/_base.sass */
 #footer .twitter .message {
   font-style: italic;
   margin-bottom: 0;
 }
-/* line 83, ../sass/_base.sass */
+/* line 95, ../sass/_base.sass */
 #footer .twitter footer {
   text-align: right;
   font-size: 0.8em;
@@ -205,4 +224,79 @@ header h2, footer h2 {
 /* line 68, ../sass/_home.sass */
 .sponsors .sponsor {
   text-align: center;
+}
+
+/* line 2, ../sass/_acerca.sass */
+#sec-acerca article {
+  max-width: 40em;
+  margin: 4em auto;
+}
+/* line 6, ../sass/_acerca.sass */
+#sec-acerca article h3 {
+  margin-top: 2em;
+}
+/* line 9, ../sass/_acerca.sass */
+#sec-acerca .integrants {
+  text-align: center;
+}
+/* line 12, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant {
+  display: inline-block;
+  width: 25%;
+  margin: 1em 1em;
+  vertical-align: top;
+  background: #dddddd;
+  padding: 20px 10px;
+}
+/* line 22, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant .avatar span {
+  display: block;
+  margin-top: 0.5em;
+}
+/* line 26, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant:first-child {
+  margin-left: 0;
+}
+/* line 28, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant:last-child {
+  margin-right: 0;
+}
+
+/* line 2, ../sass/_sponsors.sass */
+#sec-sponsors article {
+  max-width: 40em;
+  margin: 4em auto;
+}
+/* line 5, ../sass/_sponsors.sass */
+#sec-sponsors article h3 {
+  margin-top: 2em;
+}
+/* line 8, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor {
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+  padding: 2em 0;
+}
+/* line 12, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .info {
+  float: left;
+  width: 130px;
+  text-align: center;
+}
+/* line 16, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .info h4 {
+  margin: 0.5em 0 0;
+}
+/* line 18, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .about {
+  text-align: left;
+  margin-left: 200px;
+}
+/* line 21, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .about p:last-child {
+  margin: 0;
+}
+/* line 23, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor:last-child {
+  border: none;
 }
