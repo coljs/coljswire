@@ -1,5 +1,5 @@
 #Wireframes de ColombiaJS
 - [x] Home
 - [x] Acerca
-- [ ] Patrocinadores
+- [x] Patrocinadores
 - [ ] Comunidades
