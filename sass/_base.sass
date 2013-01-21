@@ -37,6 +37,9 @@ h1, h2, h3, h4, h5
 		display: inline-block
 		padding: 0.5em 1em
 
+strong, b
+	font-weight: bold
+
 header, footer
 	text-align: center
 		
@@ -46,7 +49,16 @@ header, footer
 			weight: 200
 	h2
 		font-weight: 200
-		
+
+header
+	h1
+		float: left
+		margin: 0 0 1em
+	nav
+		float: right
+	h2
+		clear: both
+	
 footer
 	text-align: center
 	margin-top: 3em

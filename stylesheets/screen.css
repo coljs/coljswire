@@ -54,20 +54,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 40, ../sass/_base.sass */
+strong, b {
+  font-weight: bold;
+}
+
+/* line 43, ../sass/_base.sass */
 header, footer {
   text-align: center;
 }
-/* line 43, ../sass/_base.sass */
+/* line 46, ../sass/_base.sass */
 header h1, footer h1 {
   font-size: 4em;
   font-weight: 200;
 }
-/* line 47, ../sass/_base.sass */
+/* line 50, ../sass/_base.sass */
 header h2, footer h2 {
   font-weight: 200;
 }
 
-/* line 50, ../sass/_base.sass */
+/* line 54, ../sass/_base.sass */
+header h1 {
+  float: left;
+  margin: 0 0 1em;
+}
+/* line 57, ../sass/_base.sass */
+header nav {
+  float: right;
+}
+/* line 59, ../sass/_base.sass */
+header h2 {
+  clear: both;
+}
+
+/* line 62, ../sass/_base.sass */
 footer {
   text-align: center;
   margin-top: 3em;
@@ -158,4 +177,40 @@ footer {
 /* line 68, ../sass/_home.sass */
 .sponsors .sponsor {
   text-align: center;
+}
+
+/* line 2, ../sass/_acerca.sass */
+#sec-acerca article {
+  max-width: 40em;
+  margin: 4em auto;
+}
+/* line 6, ../sass/_acerca.sass */
+#sec-acerca article h3 {
+  margin-top: 2em;
+}
+/* line 9, ../sass/_acerca.sass */
+#sec-acerca .integrants {
+  text-align: center;
+}
+/* line 12, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant {
+  display: inline-block;
+  width: 25%;
+  margin: 1em 1em;
+  vertical-align: top;
+  background: #dddddd;
+  padding: 20px 10px;
+}
+/* line 22, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant .avatar span {
+  display: block;
+  margin-top: 0.5em;
+}
+/* line 26, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant:first-child {
+  margin-left: 0;
+}
+/* line 28, ../sass/_acerca.sass */
+#sec-acerca .integrants .integrant:last-child {
+  margin-right: 0;
 }
