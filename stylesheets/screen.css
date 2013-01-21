@@ -237,7 +237,19 @@ footer {
   text-align: center;
 }
 /* line 16, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .info h4 {
+  margin: 0.5em 0 0;
+}
+/* line 18, ../sass/_sponsors.sass */
 #sec-sponsors .sponsor .about {
   text-align: left;
   margin-left: 200px;
+}
+/* line 21, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor .about p:last-child {
+  margin: 0;
+}
+/* line 23, ../sass/_sponsors.sass */
+#sec-sponsors .sponsor:last-child {
+  border: none;
 }
